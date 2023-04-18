@@ -385,6 +385,7 @@ static const CRPCCommand vRPCCommands[] =
         {"ultragate", "checkbudgets", &checkbudgets, true },
         {"ultragate", "mnsync", &mnsync, true },
         {"ultragate", "spork", &spork, true },
+        {"ultragate", "getcollateral", &getcollateral, true},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
